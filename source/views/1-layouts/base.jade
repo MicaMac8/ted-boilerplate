@@ -1,0 +1,24 @@
+doctype html
+html( lang='en' )
+
+  head
+    title
+      block title
+    // meta  
+    meta( charset='utf-8' )
+    meta( http-equiv='utf-8' )
+    meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+    // css
+    link( href='./styles.css', rel='stylesheet', type='text/css' )
+    
+  body
+    // content go here
+    block content
+  
+  
+    // JS Scripts
+    script(
+        src="https://code.jquery.com/jquery-3.1.1.min.js",
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",
+        crossorigin="anonymous")
+    script( src='js/main.js' )
